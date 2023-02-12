@@ -37,7 +37,7 @@ Button2.Size.X.Scale = "0.2"
 Button2.Size.Y.Scale = "0.25"
 
 Button1.MouseClick1:Connect(function()
-	loadstring(game:HttpGet('https://rasputin-bf.glitch.me/bloxfruits.lua'))() --- @diagnostic disable-line
+	loadstring(game:HttpGet("https://rasputin-bf.glitch.me/bloxfruits.lua"))()
 	ScreenGui:Destroy()
 end)
 Button2.MouseClick1:Connect(function()
