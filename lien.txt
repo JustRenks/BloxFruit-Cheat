@@ -1,1 +1,1 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ninjagoku4560/BloxFruit-Cheat/Prototype/ScriptBloxFruit.luau"))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/ninjagoku4560/BloxFruit-Cheat/Alpha/ScriptBloxFruit.luau'))()
