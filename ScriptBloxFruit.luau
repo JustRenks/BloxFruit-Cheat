@@ -31,16 +31,20 @@ Button2.Name = "Boutton1"
 Button2.Parent = Frame
 Button2.Text = "Fruit Finder"
 Button2.TextScaled = true
-Button2.Position.X.Scale = "0.7"
-Button2.Position.Y.Scale = "0.5"
-Button2.Size.X.Scale = "0.2"
-Button2.Size.Y.Scale = "0.25"
+Button2.Position = UDim2.new(07,0,0.5,0)
+Button2.Size = UDim2.new(0.2,0,0.25,0)
+--Button2.Position.X.Scale = "0.7"
+--Button2.Position.Y.Scale = "0.5"
+--Button2.Size.X.Scale = "0.2"
+--Button2.Size.Y.Scale = "0.25"
 
-Button1.MouseClick1:Connect(function()
+Button1.MouseButton1Click:Connect(function()
+	print("script1 en cours de chargement")
 	loadstring(game:HttpGet("https://rasputin-bf.glitch.me/bloxfruits.lua"))()
 	ScreenGui:Destroy()
 end)
-Button2.MouseClick1:Connect(function()
+Button2.MouseButton1Click:Connect(function()
+	print("script2 en cours de chargement")
 	loadstring(game:HttpGet('https://gist.githubusercontent.com/NotHubris/4e6fdc88d84c30afa9b28c590f273bbf/raw'))()
 	ScreenGui:Destroy()
 end)
