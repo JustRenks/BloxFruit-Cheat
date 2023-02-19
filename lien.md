@@ -1,0 +1,2 @@
+#lien :
+### loadstring(game:HttpGet('https://raw.githubusercontent.com/ninjagoku4560/BloxFruit-Cheat/Alpha/ScriptBloxFruit.luau'))()
