@@ -1,2 +1,2 @@
 # lien :
-### loadstring(game:HttpGet('https://github.com/ninjagoku4560/BloxFruit-Cheat/blob/V1/script.lua'))()
+### loadstring(game:HttpGet('https://raw.githubusercontent.com/ninjagoku4560/BloxFruit-Cheat/V1/script.lua'))()
