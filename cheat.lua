@@ -74,7 +74,39 @@ Button1.MouseButton1Click:Connect(function()
 end)
 Button2.MouseButton1Click:Connect(function()
 	print("script 2 en cours de chargement")
-	loadstring(game:HttpGet('https://gist.githubusercontent.com/NotHubris/4e6fdc88d84c30afa9b28c590f273bbf/raw'))()
+	Settings = {
+	   MuteMusicsInGame = true, --disable musics ingame
+	   NotificationSound = true, --play a loud sound when it found a df
+   	IsInVipServer = false, --set to "true" if you are in a vip server
+   	AutoEat = false,
+   	FruitsThatYouWant = {
+	--TYPE EXACT FRUITS NAME
+	    "Chop Fruit",
+	    "Spring Fruit",
+	    "Smoke Fruit",
+	    "Flame Fruit",
+	    "Ice Fruit",
+	    "Sand Fruit",
+	    "Dark Fruit",
+	    "Light Fruit",
+	    "Rubber Fruit",
+	    "Barrier Fruit",
+	    "Magma Fruit",
+	    "Quake Fruit",
+	    "Human: Buddha Fruit",
+	    "String Fruit",
+	    "Bird: Phoenix Fruit",
+	    "Rumble Fruit",
+	    "Paw Fruit",
+	    "Gravity Fruit",
+	    "Dough Fruit",
+	    "Control Fruit",
+	    "Dragon Fruit"
+	   }
+	}
+ 
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/GodClass/EpicScripts/main/Blox%20Fruit%20DF%20Script.txt'))()
+	--Enable Auto Attach and put the script in Auto Execute folder
 	ScreenGui:Destroy()
 end)
 Button3.MouseButton1Click:Connect(function()
